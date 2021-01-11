@@ -1,0 +1,400 @@
+.wrapper{
+    width: 62.5em;
+    margin: auto;
+}
+
+.header-wrapper{
+    width: 62.5em;
+    background: rgb(39,41,47);
+    float: left;
+}
+
+.header{
+    float: left;
+    width: 100%;
+}
+
+.left-header{
+    width: 300px;
+    float: left;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+.right-upper-header{
+    width: 240px;
+    float: right;
+}
+
+.right-header{
+    float: right;
+    width: 635px;
+    padding: 20px;
+}
+
+.searchbox{
+    float: right;
+    width: 240px;
+    border: none;
+    outline: 0;
+    border-radius: 20px;
+    background: rgb(31,35,44);
+    padding-left:11px;
+}
+
+.searchbox input{
+    width: 200px;
+    height: 25px;
+    background: rgb(31,35,44);
+    border: none;
+    float: left;
+    
+}
+
+.searchbox img{
+    float: left;
+    margin-top: 3px;
+}
+
+.right-lower-header{
+    float: right;
+}
+
+.menu{
+    margin-top: 33px;
+    float: right;
+}
+
+.menu li{
+    display: inline;
+    padding: 0 6px;
+    font-size: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color:rgb(76, 76, 110);
+}
+
+.image-wrapper{
+    width: 100%;
+    background: rgb(51,51,51);
+    height: 365px;
+    float: left;
+}
+
+.image-wrapper img{
+    width: 100%;
+}
+
+.contact-wrapper{
+    width: 100%;
+    background: rgb(231,231,231);
+    height: 165px;
+    float: left;
+}
+
+.text{
+    float: left;
+    width: 629px;
+}
+
+.text p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(77,79,87);
+    margin-top: 46px;
+    padding-left: 19px;
+    float: left;
+}
+
+.contact-button{
+    float: right;
+    border: none;
+    border-radius: 10px;
+    background: rgb(31,35,44);
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.contact-button a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    float: left;
+    text-decoration: none;
+    color: rgb(231,231,231);
+    padding: 20px 11px;
+
+}
+
+.contact-button a:hover{
+    color: rgb(76, 76, 110);
+}
+
+.body-wrapper{
+    width: 100%;
+    background: rgb(255,255,255);
+    height: 889px;
+    float: left;
+}
+
+.services{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.pic{
+    float: left;
+    margin-right: 20px;
+}
+
+.services{
+    float: left;
+}
+
+.serve{
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+}
+
+.topic{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: rgb(44,48,56);
+}
+
+.info p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    margin-top: 14px;
+    color: rgb(195,195,195);
+}
+
+.seperator-text{
+    float: left;
+    width: 100%;
+    margin-top: 83px;
+}
+
+.seperator-text p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    float: left;
+}
+
+.seperator-text p {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ p span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+ .images-wrapper{
+     float: left;
+ }
+
+.rectangle{
+    float: left;
+    margin-top: 41px;
+    padding-right: 33px;
+}
+
+.caption {
+    height: 60px;
+    background: rgb(238,238,238);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.caption p {
+    margin-top: 5px;
+    color:rgb(51,51,51);
+}
+
+.sub-caption {
+    margin-top: 5px;
+    font-size: 8pt;
+    color: rgb(168,168,168);
+}
+
+
+.bottom-contact-wrapper{
+    width: 100%;
+    background: rgb(238,238,238);
+    height: 285px;
+    float: left;
+    margin-top: 80px;
+}
+
+.contact-us{
+    width: 188px;
+    padding-left: 20px;
+    padding-top: 51px;
+    padding-right: 57px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+    padding-top: 31px;
+    padding-right: 57px;
+    font-size: 13px;
+}
+
+.content li{
+    display: block;
+    text-decoration: none;
+    color:rgb(143,143,143);
+}
+
+.quicklink{
+    float: left;
+    padding-top: 51px;
+    width: 226px;
+}
+
+.quicklink li{
+    display: block;
+    text-decoration: none;
+    color:rgb(78,81,88);
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+hr{
+    margin-bottom: 5px;
+    width: 225px;
+}
+
+.fromtheblog{
+    float: left;
+    width: 226px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 51px;
+    padding-left: 20px;
+}
+
+.title p{
+    font-size: 18pt;
+    color: rgb(74,74,74);
+}
+
+.content{
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-title{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color:rgb(139,139,139);
+}
+
+
+.span{
+    font-size: 11px;
+    padding-bottom: 12px;
+    color:rgb(174,174,174);
+}
+
+.content p{
+    font-size: 12px;
+    color:rgb(174,174,174);
+}
+
+.readmore{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.readmore a{
+    text-decoration: none;
+    color: rgb(74,74,74);
+}
+
+.newsletter{
+    padding-top: 51px;
+    padding-left: 20px;
+    width: 225px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.news-content{
+    float: left;
+    padding-top: 29px;
+}
+
+.name{
+    padding-bottom: 10px;
+}
+.name input{
+    padding-left:10px ;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.mail{
+    padding-bottom: 20px;
+}
+
+.mail input{
+    padding-left:10px ;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit{
+    width: 80px;
+    height: 30px;
+}
+
+.submit a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: rgb(31,35,44);
+    font-size: 12px;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 6px;
+}
+
+.footer{
+    width: 100%;
+    background: rgb(30,34,43);
+    height: 60px;
+    float: left;
+    color: rgb(99,99,101);
+}
+
+.left-footer{
+    float: left;
+    padding-left: 20px;
+    margin-top: 24px;
+}
+
+.right-footer{
+    float: right;
+    padding-right: 20px;
+    margin-top: 24px;
+}
