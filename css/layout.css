@@ -1,10 +1,10 @@
 .wrapper{
-    width: 62.5em;
+    max-width: 62.5em;
     margin: auto;
 }
 
 .header-wrapper{
-    width: 62.5em;
+    width: 100%;
     background: rgb(39,41,47);
     float: left;
 }
@@ -15,7 +15,7 @@
 }
 
 .left-header{
-    width: 300px;
+    max-width: 300px;
     float: left;
 }
 
@@ -23,20 +23,21 @@
     padding-left: 20px;
 }
 
+
 .right-upper-header{
-    width: 240px;
+    max-width: 240px;
     float: right;
 }
 
 .right-header{
     float: right;
-    width: 635px;
+    max-width: 635px;
     padding: 20px;
 }
 
 .searchbox{
     float: right;
-    width: 240px;
+    max-width: 230px;
     border: none;
     outline: 0;
     border-radius: 20px;
@@ -45,7 +46,7 @@
 }
 
 .searchbox input{
-    width: 200px;
+    max-width: 200px;
     height: 25px;
     background: rgb(31,35,44);
     border: none;
@@ -56,6 +57,7 @@
 .searchbox img{
     float: left;
     margin-top: 3px;
+    padding-left: 6px;
 }
 
 .right-lower-header{
@@ -85,7 +87,6 @@ a:hover{
 .image-wrapper{
     width: 100%;
     background: rgb(51,51,51);
-    height: 365px;
     float: left;
 }
 
@@ -102,7 +103,7 @@ a:hover{
 
 .text{
     float: left;
-    width: 629px;
+    max-width: 629px;
 }
 
 .text p{
@@ -140,7 +141,6 @@ a:hover{
 .body-wrapper{
     width: 100%;
     background: rgb(255,255,255);
-    height: 889px;
     float: left;
 }
 
@@ -159,7 +159,7 @@ a:hover{
 }
 
 .serve{
-    width: 300px;
+    max-width: 300px;
     float: left;
     margin-left: 30px;
 }
@@ -168,6 +168,7 @@ a:hover{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20pt;
     color: rgb(44,48,56);
+    border-bottom:2px solid rgb(44,48,56);
 }
 
 .info p{
@@ -210,7 +211,20 @@ a:hover{
 .rectangle{
     float: left;
     margin-top: 41px;
-    padding-right: 33px;
+    margin-right: 7px;
+    padding-right: 40px;
+}
+
+.rectangle3{
+    float: left;
+    margin-top: 41px;
+    padding-right: 3px;
+}
+
+.rectangle6{
+    float: left;
+    margin-top: 41px;
+    padding-right: 5px;
 }
 
 .caption {
@@ -236,13 +250,12 @@ a:hover{
 .bottom-contact-wrapper{
     width: 100%;
     background: rgb(238,238,238);
-    height: 285px;
     float: left;
     margin-top: 80px;
 }
 
 .contact-us{
-    width: 188px;
+    max-width: 188px;
     padding-left: 20px;
     padding-top: 51px;
     padding-right: 57px;
@@ -265,7 +278,7 @@ a:hover{
 .quicklink{
     float: left;
     padding-top: 51px;
-    width: 226px;
+    max-width: 226px;
 }
 
 .quicklink li{
@@ -278,19 +291,20 @@ a:hover{
 
 hr{
     margin-bottom: 5px;
-    width: 225px;
+    max-width: 225px;
 }
 
 .fromtheblog{
     float: left;
-    width: 226px;
+    max-width: 226px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 51px;
     padding-left: 20px;
+    padding-bottom: 33px;
 }
 
 .title p{
-    font-size: 18pt;
+    font-size: 24px;
     color: rgb(74,74,74);
 }
 
@@ -332,9 +346,10 @@ hr{
 .newsletter{
     padding-top: 51px;
     padding-left: 20px;
-    width: 225px;
+    max-width: 225px;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 33px;
 }
 
 .news-content{
@@ -382,7 +397,6 @@ hr{
 .footer{
     width: 100%;
     background: rgb(30,34,43);
-    height: 60px;
     float: left;
     color: rgb(99,99,101);
 }
@@ -391,10 +405,12 @@ hr{
     float: left;
     padding-left: 20px;
     margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .right-footer{
     float: right;
     padding-right: 20px;
     margin-top: 24px;
+    margin-bottom: 24px;
 }
